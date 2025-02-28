@@ -9,7 +9,6 @@ class Menu:
         print("1. Add flashcards")
         print("2. Practice flashcards")
         print("3. Exit")
-        print()
         return self.choice_main_menu()
 
     def choice_main_menu(self):
@@ -27,7 +26,6 @@ class Menu:
         print()
         print("1. Add a new flashcard")
         print("2. Exit")
-        print()
         return self.choice_flashcard_menu()
 
     def choice_flashcard_menu(self):
